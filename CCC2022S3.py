@@ -1,11 +1,5 @@
 #3/15 in CCC
 (N,M,K)=list(map(int,input().split()))
-##print('N={0},M={1},K={2}'.format(N,M,K))
-
-##out=[]
-##b=[]
-##def prepare():
-##    global out
 
 def make_seq(N, M):
     seq = ""
@@ -38,22 +32,4 @@ else:
             cur_val += 1
     output(seq)
         
-
-
-##if K>num_of_samples:
-##    print(-1)
-##elif K==num_of_samples:
-##    for i in range(1,N+1):
-##        a=i
-##        if i>M:
-##            a=2*M-i
-##        print(a, end=' ')
-##else:
-##    
-##    for i in range(1,N+1):
-##        a=i
-##        if i>M:
-##            a=2*M-i
-##        b.append(a)
-##    print(b)
      
